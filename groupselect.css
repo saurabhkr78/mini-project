@@ -1,0 +1,16 @@
+#body{
+    padding: 0 10px 20px;
+}
+#page-title{
+    margin: 0 0 25px 0;
+    padding: o;
+    border-bottom: 1px solid #aaa;
+    font-weight: 300;
+}
+
+.c1,.c2,.c3{
+    color:red;
+}
+#id1 div span p.a1{
+    color:gold;
+}

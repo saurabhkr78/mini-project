@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>string manipulation
+        
+    </title>
+</head>
+<body>
+    <h1 id="sentence">
+        Lorem ipsum dolor sit amet consectetur
+         adipisicing elit. Hic veniam illo optio 
+         omnis enim provident sunt nobis totam
+          impedit accusamus vero, quisquam ut 
+          iusto, maiores odit ad nulla facilis unde.
+    </h1>
+    
+    <script>
+        var sentenceNode = document.getElementById("sentence");
+        var sentence = sentenceNode.innerText;
+
+        var uppersentence = sentence.toUpperCase()
+        var lowersentence = sentence.toLowerCase()
+        var firsttenchar = sentence.substr(0, 11)
+        
+        var allwords = sentence.split(" ")
+        var bracketwords = "(" + allwords.join(")(") + ")"
+        sentenceNode.innerText= bracketwords
+
+        var firstthreewords = allword.slice(0, 3)
+
+    </script>
+    
+</body>
+</html>
